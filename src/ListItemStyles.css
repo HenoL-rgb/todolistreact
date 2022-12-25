@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    width: 500px;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    border: 3px solid cyan;
+    padding: 15px;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.controllers {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+
+}
+
+.controllers button {
+    padding: 10px 15px;
+    background-color: cyan;
+    font-style: 'IBM Plex sans';
+    border: 0;
+}
