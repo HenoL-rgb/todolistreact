@@ -1,12 +1,12 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 li {
     list-style: none;
     width: 500px;
-    min-height: 100px;
     display: flex;
     justify-content: space-between;
     column-gap: 50px;
@@ -14,10 +14,15 @@ li {
     padding: 15px;
 }
 
+li div, li h2 {
+    word-break: break-all;
+}
+
 .task {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
+
 }
 
 .controllers {
@@ -29,6 +34,8 @@ li {
 }
 
 .controllers button {
+    height: 40px;
+    width: 100px;
     padding: 10px 15px;
     background-color: cyan;
     font-style: 'IBM Plex sans';

@@ -36,7 +36,6 @@ function App() {
   return (
     <div className="App">
       <Form add={addTask} id={id}/>
-      <div>{id}</div>
       <TasksList list={list} remove={removeTask}></TasksList>
     </div>
   );
